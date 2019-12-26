@@ -1,0 +1,89 @@
+.container {
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background: #e7d7e161;
+}
+
+.logo {
+  height: 20vh;
+  width: 80vw;
+  text-align: center;
+  color: #202124;
+}
+
+.logo-txt {
+  font-size: 5rem;
+  font-family: cursive;
+}
+
+.logo-txt:last-child {
+  margin-left: -6px;
+  font-size: 2rem;
+}
+
+.body {
+  margin-top: 1rem;
+  width: 90vw;
+  height: 60vh;
+  padding: 1rem;
+}
+
+.input-box {
+  margin-top: 2rem;
+  background: transparent;
+  border: none;
+  border-bottom: 1px solid #ffffff;
+  width: 100%;
+  height: 50px;
+  box-sizing: border-box;
+  color: #ffffff;
+  font-size: 18px;
+  outline: none;
+}
+
+.input-box:last-child {
+  margin-top: 3rem;
+}
+
+.sign-btn {
+  background: transparent !important;
+  color: #ffffff !important;
+  font-weight: 500 !important;
+  border: 1px solid !important;
+  margin-top: 3rem !important;
+  width: 100%;
+  height: 50px;
+  box-sizing: border-box;
+  color: #ffffff;
+  font-size: 20px;
+  outline: none;
+}
+
+.option {
+  height: 5rem;
+  line-height: 5rem;
+  text-align: center;
+  color: #ffffff;
+  font-size: 1.5rem;
+}
+
+.sign-btn:last-child {
+  margin-top: 0px !important;
+}
+
+::placeholder {
+  color: #ffffff;
+  opacity: 1;
+}
+
+:-ms-input-placeholder {
+  color: #ffffff;
+}
+
+::-ms-input-placeholder {
+  color: #ffffff;
+}
